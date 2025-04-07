@@ -6,7 +6,7 @@ export const productosJSON = () => {
       "description": "Un juego épico de aventura donde te sumerges en un mundo lleno de misterio y criaturas fantásticas.",
       "price": 49.99,
       "category": "Aventura",
-      "image": "https://picsum.photos/id/10/600/400"
+      "image": "/gamesImg/TheLastAdventure.jpg"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@ export const productosJSON = () => {
       "description": "Carreras emocionantes en un juego de fútbol con coches, acelerando a través de paisajes futuristas.",
       "price": 39.99,
       "category": "Carreras",
-      "image": "https://picsum.photos/id/11/600/400"
+      "image": "/gamesImg/rocket-racing.jpg"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@ export const productosJSON = () => {
       "description": "Lucha por tu vida en un mundo post-apocalíptico lleno de zombis y monstruos mutantes.",
       "price": 29.99,
       "category": "Acción",
-      "image": "https://picsum.photos/id/12/600/400"
+      "image": "/gamesImg/ZombieApocalypse.jpg"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@ export const productosJSON = () => {
       "description": "Un juego de rol donde exploras mundos mágicos, luchas contra monstruos y desentrañas secretos milenarios.",
       "price": 59.99,
       "category": "RPG",
-      "image": "https://picsum.photos/id/13/600/400"
+      "image": "/gamesImg/FantasyQuest.jpg"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@ export const productosJSON = () => {
       "description": "Sobrevive en una isla desierta, recolecta recursos y construye tu refugio para escapar de los peligros naturales.",
       "price": 34.99,
       "category": "Supervivencia",
-      "image": "https://picsum.photos/id/14/600/400"
+      "image": "/gamesImg/SurvivalIsland.jpg"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@ export const productosJSON = () => {
       "description": "Lucha en el espacio con naves futuristas, disparando a través de galaxias llenas de enemigos.",
       "price": 59.99,
       "category": "Espacio/Acción",
-      "image": "https://picsum.photos/id/15/600/400"
+      "image": "/gamesImg/SpaceWars.jpg"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@ export const productosJSON = () => {
       "description": "Resuelve acertijos y encuentra pistas en una mansión misteriosa llena de secretos.",
       "price": 29.99,
       "category": "Aventura",
-      "image": "https://picsum.photos/id/16/600/400"
+      "image": "/gamesImg/Mystery Mansion.jpg"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@ export const productosJSON = () => {
       "description": "Combate con tu equipo de superhéroes para salvar el mundo de una inminente destrucción.",
       "price": 49.99,
       "category": "Acción",
-      "image": "https://picsum.photos/id/17/600/400"
+      "image": "/gamesImg/SuperHeroesUnite.jpg"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@ export const productosJSON = () => {
       "description": "Un juego de rol donde tomas el control de un dragón y te embarcas en una aventura épica.",
       "price": 39.99,
       "category": "Aventura/Fantasía",
-      "image": "https://picsum.photos/id/18/600/400"
+      "image": "/gamesImg/Dragon'sLair.jpg"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@ export const productosJSON = () => {
       "description": "Enfréntate a misiones secretas como espía y enfrenta a tus enemigos en un mundo lleno de conspiraciones.",
       "price": 44.99,
       "category": "Acción/Espías",
-      "image": "https://picsum.photos/id/19/600/400"
+      "image": "/gamesImg/RogueMission.jpg"
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@ export const productosJSON = () => {
       "description": "Enfréntate a criaturas horribles en un juego de supervivencia donde cada decisión cuenta.",
       "price": 49.99,
       "category": "Horror",
-      "image": "https://picsum.photos/id/20/600/400"
+      "image": "/gamesImg/SurvivalHorror.jpg"
     },
     {
       "id": 12,
@@ -94,7 +94,7 @@ export const productosJSON = () => {
       "description": "Lucha hasta el final en una batalla real donde solo los más fuertes sobreviven.",
       "price": 29.99,
       "category": "Acción",
-      "image": "https://picsum.photos/id/21/600/400"
+      "image": "/gamesImg/BattleRoyale.jpg"
     },
     {
       "id": 13,
@@ -102,7 +102,7 @@ export const productosJSON = () => {
       "description": "Defiende la tierra de invasores espaciales en un clásico juego de disparos de la vieja escuela.",
       "price": 19.99,
       "category": "Clásicos",
-      "image": "https://picsum.photos/id/22/600/400"
+      "image": "/gamesImg/SpaceInvaders.jpg"
     },
     {
       "id": 14,
@@ -110,7 +110,7 @@ export const productosJSON = () => {
       "description": "Conviértete en un caballero y emprende una misión para salvar el reino de las garras de un malvado hechicero.",
       "price": 54.99,
       "category": "RPG",
-      "image": "https://picsum.photos/id/23/600/400"
+      "image": "/gamesImg/Knight'sQuest.jpg"
     },
     {
       "id": 15,
@@ -118,7 +118,7 @@ export const productosJSON = () => {
       "description": "Sumérgete en un futuro distópico donde luchas contra un sistema corrupto en un mundo virtual.",
       "price": 64.99,
       "category": "Futurista/Acción",
-      "image": "https://picsum.photos/id/24/600/400"
+      "image": "/gamesImg/CyberStrike.jpg"
     },
     {
       "id": 16,
@@ -126,7 +126,7 @@ export const productosJSON = () => {
       "description": "Caza monstruos gigantes en un mundo lleno de criaturas legendarias.",
       "price": 39.99,
       "category": "Acción/Fantasía",
-      "image": "https://picsum.photos/id/25/600/400"
+      "image": "/gamesImg/MonsterHunter.jpg"
     },
     {
       "id": 17,
@@ -134,15 +134,15 @@ export const productosJSON = () => {
       "description": "Lucha en batallas aéreas como un pirata del cielo en un mundo flotante lleno de aventuras.",
       "price": 49.99,
       "category": "Aventura",
-      "image": "https://picsum.photos/id/26/600/400"
+      "image": "/gamesImg/SkyPirates.jpg"
     },
     {
       "id": 18,
-      "name": "Stealth Ops",
-      "description": "Sigue un camino de sigilo, evitando ser detectado mientras cumples tus misiones secretas.",
+      "name": "Spec Ops",
+      "description": "Explora los horrores de la guerra y la moralidad en condiciones extremas.",
       "price": 39.99,
       "category": "Sigilo",
-      "image": "https://picsum.photos/id/27/600/400"
+      "image": "/gamesImg/SpecOps.jpg"
     },
     {
       "id": 19,
@@ -150,7 +150,7 @@ export const productosJSON = () => {
       "description": "La tierra se encuentra en ruinas y tú eres el último sobreviviente, luchando por mantener la esperanza.",
       "price": 59.99,
       "category": "Supervivencia",
-      "image": "https://picsum.photos/id/28/600/400"
+      "image": "/gamesImg/ApocalypseNow.jpg"
     },
     {
       "id": 20,
@@ -158,7 +158,7 @@ export const productosJSON = () => {
       "description": "Corre por la ciudad a toda velocidad, esquivando obstáculos y alcanzando velocidades extremas.",
       "price": 24.99,
       "category": "Carreras",
-      "image": "https://picsum.photos/id/29/600/400"
+      "image": "/gamesImg/SpeedRush.jpg"
     }
   ]);
 }

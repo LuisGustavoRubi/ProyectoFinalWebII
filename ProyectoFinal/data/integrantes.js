@@ -19,8 +19,8 @@ export const integrantes=()=>{return([
         "id":3,
         "nombre":"Willians",
         "apellido":"Alexander",
-        "imagen":"/integrantesImg/luis.jpg",
-        "numero":"8752-0431",
-        "correo":"luirubi379@unicah.edu"
+        "imagen":"/integrantesImg/willians.jpg",
+        "numero":"8865-6255",
+        "correo":"willianscasco@gmail.com"
     }
 ])}
