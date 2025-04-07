@@ -1,0 +1,56 @@
+.aboutUs h2{
+    color: var(--text-primary);
+    @apply text-center text-2xl font-bold mb-4;
+    margin-top: 40px;
+}
+.aboutUs h1{
+  color: var(--text-primary);
+  @apply text-center text-3xl font-bold mb-4;
+  margin-top: 40px;
+}
+.aboutUs p{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: var(--text-primary);
+  text-align: center;
+}
+.integrantes{
+    @apply flex flex-wrap justify-center;
+    }
+    .integrante {
+        background-color: var(--secondary-color);
+        border-radius: 1.5rem;
+        padding: 1rem;
+        text-align: center;
+        color: var(--text-primary);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s, box-shadow 0.3s;
+        margin: 1rem;
+        max-width: 250px;
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .integrante h2{
+        margin-bottom: 5px;
+      }
+      .integrante:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+      }
+      
+      .integranteImagen {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      
+    .integranteTitulo{
+        
+        @apply sm:text-sm md:text-lg lg:text-xl xl:text-2xl text-center font-bold;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        color:var(--text-primary)
+    }

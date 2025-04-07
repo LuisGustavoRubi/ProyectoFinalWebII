@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "./pages/contact.css";
+@import "./components/header.css";
+
+@import "./components/button.css";
+@import "./components/listarProductos.css";
+@import "./components/listarIntegrantes.css";
+:root {
+    --primary-color: #FF5733; 
+    --primary-color-hover: #E04E2B; 
+
+    --secondary-color: #2E2D5D;
+    --secondary-color-hover: #3A395F;
+
+    --text-primary: #F8F9FA; 
+    --text-primary-hover: #E1E2E4;
+
+    --text-secondary: #A1A7B3; 
+    --text-secondary-hover: #8C92A1;
+
+    --background-color: #1A1A2E; 
+   
+
+    background-color: var(--background-color);
+}

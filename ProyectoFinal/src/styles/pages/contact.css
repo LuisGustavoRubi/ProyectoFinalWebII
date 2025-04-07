@@ -1,0 +1,9 @@
+.contact p{
+color:var(--text-primary);
+@apply text-center;
+}
+.contact h1{
+    @apply text-center text-3xl font-bold mb-4;
+    margin-top: 20px;
+    color:var(--text-primary);
+}
