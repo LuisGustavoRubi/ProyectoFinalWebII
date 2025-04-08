@@ -32,7 +32,10 @@ export const LandingPage = () => {
 const HeroPanel = ({productos}) => {
 
     return (
-      <div className="relative w-full h-[80vh] bg-cover bg-center">
+      <div
+  className="relative w-full h-[80vh] bg-cover bg-center"
+  style={{ backgroundImage: `url('back.jpg')` }}
+>
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-center text-white px-4 py-24 md:py-32">
           <h1 className="text-4xl md:text-6xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
