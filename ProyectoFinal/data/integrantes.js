@@ -1,8 +1,8 @@
 export const integrantes=()=>{return([
     {
         "id":1,
-        "nombre":"Luis Gustavo",
-        "apellido":"Rubi Funez",
+        "nombre":"Luis",
+        "apellido":"Rubi",
         "imagen":"/integrantesImg/luis.jpg",
         "numero":"8752-0431",
         "correo":"luirubi379@unicah.edu"
