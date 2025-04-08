@@ -4,6 +4,7 @@ import { AboutUs } from './sites/aboutUs'
 import { Header } from './components/header'
 import { Contact } from './sites/contact'
 import { Catalogo } from './sites/catalogo';
+import { ProductoDetalle } from "./sites/ProductoDetalle";
 export const App = () => {
   return (
     <>
@@ -15,6 +16,7 @@ export const App = () => {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/catalogo" element={<Catalogo />} />
+        <Route path="/catalogo/:id" element={<ProductoDetalle />} />
       </Routes>
     </Router>
     </>

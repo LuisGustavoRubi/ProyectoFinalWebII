@@ -44,7 +44,7 @@ const HeroPanel = ({productos}) => {
           <p className="text-lg md:text-xl mb-8" style={{ color: 'var(--text-secondary)' }}>
             Explora una selección de títulos irresistibles, con ofertas exclusivas solo para los verdaderos gamers. ¡Juega más, paga menos!
           </p>
-          <Button text={"Ver juegos"} href={"/"}/>
+          <Button text={"Ver juegos"} href={"/catalogo"}/>
             
         </div>
       </div>
