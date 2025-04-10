@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { productosJSON } from "../../data/productos";
-import { Button } from "../components/button"
+
 
 export const ProductoDetalle = () => {
   const { id } = useParams();
@@ -21,7 +21,6 @@ export const ProductoDetalle = () => {
       />
       <p className="text-gray-700 text-lg mb-2">{producto.description}</p>
       <p className="text-green-600 font-bold text-xl">${producto.price}</p>
-      <Button text={"+Carrito"} href={"/"}/>
     </div>
   );
 };

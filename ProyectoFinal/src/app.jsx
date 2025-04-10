@@ -5,6 +5,12 @@ import { Header } from './components/header'
 import { Contact } from './sites/contact'
 import { Catalogo } from './sites/catalogo';
 import { ProductoDetalle } from "./sites/ProductoDetalle";
+
+import  Reseñas  from './sites/Reseñas'
+import  Testimonios  from './sites/Testimonios'
+import CartPage from './sites/carrito';
+import FooterLocation from './sites/footerlocation'
+
 export const App = () => {
   return (
     <>
@@ -17,6 +23,11 @@ export const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/catalogo" element={<Catalogo />} />
         <Route path="/catalogo/:id" element={<ProductoDetalle />} />
+        <Route path="/catalogo/:id" element={<ProductoDetalle />} />
+        <Route path="/cart" element={<CartPage />} />
+         <Route path="/FooterLocation" element={< FooterLocation />} />
+         <Route path="/testimonios" element={<Testimonios />} />  
+          <Route path="/Reseñas" element={<Reseñas />} />
       </Routes>
     </Router>
     </>

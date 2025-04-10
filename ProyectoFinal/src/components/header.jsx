@@ -14,7 +14,10 @@ export const Header = () => {
                     <li>
                         <Link to="/contact">Contact</Link>
                     </li>
-                    
+                    <li>
+                        <Link to="/cart">Carrito</Link> 
+                    </li>
+                  
                 </ul>
             </nav>
         </header>

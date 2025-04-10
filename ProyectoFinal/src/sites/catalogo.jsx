@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { productosJSON } from "../../data/productos";
 import { Link } from "react-router-dom";
+import { Button } from "../components/button"
 
 export const Catalogo = () => {
   const productosPorPagina = 8;
@@ -69,6 +70,11 @@ export const Catalogo = () => {
           </button>
         ))}
       </div>
+      <Button text={"ESTAMOS UBICADOS"} href={"/FooterLocation"} className="mr-4" />
+      <Button text={"TESTIMONIOS DE USUARIOS"} href="/testimonios" className="mr-4" />
+      <Button text={"RESEÑAS DE USUARIOS"} href="/Reseñas" />
     </div>
+  
   );
 };
+
