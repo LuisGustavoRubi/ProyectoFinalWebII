@@ -5,6 +5,10 @@ import { Header } from './components/header'
 import { Contact } from './sites/contact'
 import { Catalogo } from './sites/catalogo';
 import { ProductoDetalle } from "./sites/ProductoDetalle";
+
+import StoreLocations from './sites/StoreLocations'; 
+import CartPage from './sites/carrito';
+
 export const App = () => {
   return (
     <>
@@ -17,6 +21,10 @@ export const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/catalogo" element={<Catalogo />} />
         <Route path="/catalogo/:id" element={<ProductoDetalle />} />
+        <Route path="/catalogo/:id" element={<ProductoDetalle />} />
+        <Route path="/cart" element={<CartPage />} />
+        <Route path="/store-locations" element={<StoreLocations />} />
+        
       </Routes>
     </Router>
     </>

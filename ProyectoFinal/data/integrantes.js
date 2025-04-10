@@ -10,10 +10,10 @@ export const integrantes=()=>{return([
     {
         "id":2,
         "nombre":"Habid",
-        "apellido":"irias",
-        "imagen":"/integrantesImg/luis.jpg",
-        "numero":"8752-0431",
-        "correo":"luirubi379@unicah.edu"
+        "apellido":"Irias",
+        "imagen":"/integrantesImg/habid.jpg",
+        "numero":"9868-9196",
+        "correo":"habidirias@gmail.com"
     },
     {
         "id":3,
