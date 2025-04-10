@@ -10,6 +10,8 @@ import  Reseñas  from './sites/Reseñas'
 import  Testimonios  from './sites/Testimonios'
 import CartPage from './sites/carrito';
 import FooterLocation from './sites/footerlocation'
+import StoreLocations from './sites/StoreLocations'; 
+import CartPage from './sites/carrito';
 
 export const App = () => {
   return (
@@ -28,6 +30,8 @@ export const App = () => {
          <Route path="/FooterLocation" element={< FooterLocation />} />
          <Route path="/testimonios" element={<Testimonios />} />  
           <Route path="/Reseñas" element={<Reseñas />} />
+        <Route path="/store-locations" element={<StoreLocations />} />
+        
       </Routes>
     </Router>
     </>
