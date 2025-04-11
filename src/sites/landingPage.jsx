@@ -46,7 +46,7 @@ const HeroPanel = ({productos}) => {
           </p>
           
           <Link to="/catalogo" className="mr-4">
-      <img src="/ProyectoFinalWebII/icons/controller.svg" alt="Ubicación" className="w-4 h-4" />
+      <img src="./icons/controller.svg" alt="Ubicación" className="w-4 h-4" />
       Ver juegos
     </Link>
         </div>
