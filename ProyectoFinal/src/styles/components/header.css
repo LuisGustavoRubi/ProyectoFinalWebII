@@ -1,21 +1,19 @@
-header nav ul{
-    @apply justify-center flex md:space-x-50 sm:space-x-20 lg:space-x-80 xl:space-x-110 ;
-    
+header nav ul {
+    @apply flex justify-center gap-4 sm:gap-8 md:gap-16 lg:gap-24 xl:gap-32;
 }
-header nav{
+
+header nav {
     @apply sm:p-2 md:p-4 lg:p-6 xl:p-8;
     background-color: var(--primary-color);
-    
 }
-header nav ul li a{
-  
+
+header nav ul li a {
     @apply text-base font-bold sm:p-2 md:p-4 lg:p-6 xl:p-8;
-    color:var(--text-primary);
+    color: var(--text-primary);
     transition-duration: 1s;
-    
 }
-header nav ul li a:hover{
+
+header nav ul li a:hover {
     @apply text-2xl;
-    color:var(--text-primary-hover);
- 
+    color: var(--text-primary-hover);
 }

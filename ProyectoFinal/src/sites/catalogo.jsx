@@ -32,8 +32,43 @@ export const Catalogo = () => {
 
   return (
     <div className="catalogoPage px-4 py-6">
-      <h2 className="productosTitulo">Catálogo de Videojuegos</h2>
+      
+      <section>
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-2 mb-8 p-4">
+  <li>
+    <Button href="/FooterLocation" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
+      <img src="/icons/geo-alt.svg" alt="Ubicación" className="w-5 h-5" />
+      Estamos Ubicados
+    </Button>
+  </li>
+  <li>
+    <Button href="/testimonios" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
+      <img src="/icons/book.svg" alt="Testimonios" className="w-5 h-5" />
+      Testimonios de Usuarios
+    </Button>
+  </li>
+  <li>
+    <Button href="/Reseñas" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
+      <img src="/icons/pen.svg" alt="Reseñas" className="w-5 h-5" />
+      Reseñas de Usuarios
+    </Button>
+  </li>
+  <li>
+    <Button href="/Afiliados" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
+      <img src="/icons/person-arms-up.svg" alt="Afiliados" className="w-5 h-5" />
+      Afiliados
+    </Button>
+  </li>
+  <li>
+    <Button href="/galery" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
+      <img src="/icons/card-image.svg" alt="Galería" className="w-5 h-5" />
+      Galería
+    </Button>
+  </li>
+</ul>
+</section>
 
+    <h2 className="productosTitulo">Catálogo de Videojuegos</h2>
       <section className="productos grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
         {productosPagina.map((producto) => (
           <Link to={`/catalogo/${producto.id}`} key={producto.id}>
@@ -70,9 +105,7 @@ export const Catalogo = () => {
           </button>
         ))}
       </div>
-      <Button text={"ESTAMOS UBICADOS"} href={"/FooterLocation"} className="mr-4" />
-      <Button text={"TESTIMONIOS DE USUARIOS"} href="/testimonios" className="mr-4" />
-      <Button text={"RESEÑAS DE USUARIOS"} href="/Reseñas" />
+      
     </div>
   
   );

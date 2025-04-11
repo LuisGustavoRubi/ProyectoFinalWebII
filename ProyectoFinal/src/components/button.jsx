@@ -1,9 +1,9 @@
-export const Button = ({text, href})=>{
-    return(
-        <div className="Button">
-        <a href={href}>
-            {text}
+export const Button = ({ href, children, className }) => {
+    return (
+    <div className={`Button ${className}`}>
+        <a href={href} className="inline-flex items-center gap-2">
+        {children}
         </a>
-        </div>
-    )
-}
+    </div>
+    );
+};

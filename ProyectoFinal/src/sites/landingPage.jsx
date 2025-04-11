@@ -44,8 +44,11 @@ const HeroPanel = ({productos}) => {
           <p className="text-lg md:text-xl mb-8" style={{ color: 'var(--text-secondary)' }}>
             Explora una selección de títulos irresistibles, con ofertas exclusivas solo para los verdaderos gamers. ¡Juega más, paga menos!
           </p>
-          <Button text={"Ver juegos"} href={"/catalogo"}/>
-            
+          
+          <Button href="/catalogo" className="mr-4">
+      <img src="/icons/controller.svg" alt="Ubicación" className="w-4 h-4" />
+      Ver juegos
+    </Button>
         </div>
       </div>
     );
@@ -62,7 +65,7 @@ const ProductosVendidos = ({productos})=>{
                     <p>Categoria: {producto.category}</p>
                 </div>
             ))}
-       </>
+      </>
     )
 }
 
