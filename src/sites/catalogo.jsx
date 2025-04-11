@@ -36,34 +36,34 @@ export const Catalogo = () => {
       <section>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-2 mb-8 p-4">
   <li>
-    <Button href="/FooterLocation" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
-      <img src="/icons/geo-alt.svg" alt="Ubicación" className="w-5 h-5" />
+    <Link to="/FooterLocation" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
+      <img src="icons/geo-alt.svg" alt="Ubicación" className="w-5 h-5" />
       Estamos Ubicados
-    </Button>
+    </Link>
   </li>
   <li>
-    <Button href="/testimonios" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
-      <img src="/icons/book.svg" alt="Testimonios" className="w-5 h-5" />
+    <Link to="/testimonios" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
+      <img src="icons/book.svg" alt="Testimonios" className="w-5 h-5" />
       Testimonios de Usuarios
-    </Button>
+    </Link>
   </li>
   <li>
-    <Button href="/Reseñas" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
-      <img src="/icons/pen.svg" alt="Reseñas" className="w-5 h-5" />
+    <Link to="/Reseñas" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
+      <img src="icons/pen.svg" alt="Reseñas" className="w-5 h-5" />
       Reseñas de Usuarios
-    </Button>
+    </Link>
   </li>
   <li>
-    <Button href="/afiliados" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
-      <img src="/icons/person-arms-up.svg" alt="Partners Comerciales" className="w-5 h-5" />
+    <Link to="/afiliados" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
+      <img src="icons/person-arms-up.svg" alt="Partners Comerciales" className="w-5 h-5" />
       Partners Comerciales
-    </Button>
+    </Link>
   </li>
   <li>
-    <Button href="/galery" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
+    <Link to="galery" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
       <img src="/icons/card-image.svg" alt="Galería" className="w-5 h-5" />
       Galería
-    </Button>
+    </Link>
   </li>
 </ul>
 </section>
