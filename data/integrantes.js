@@ -3,7 +3,7 @@ export const integrantes=()=>{return([
         "id":1,
         "nombre":"Luis",
         "apellido":"Rubi",
-        "imagen":"/integrantesImg/luis.jpg",
+        "imagen":"integrantesImg/luis.jpg",
         "numero":"8752-0431",
         "correo":"luirubi379@unicah.edu"
     },
@@ -11,7 +11,7 @@ export const integrantes=()=>{return([
         "id":2,
         "nombre":"Habid",
         "apellido":"Irias",
-        "imagen":"/integrantesImg/habid.jpg",
+        "imagen":"integrantesImg/habid.jpg",
         "numero":"9868-9196",
         "correo":"habidirias@gmail.com"
     },
@@ -19,7 +19,7 @@ export const integrantes=()=>{return([
         "id":3,
         "nombre":"Willians",
         "apellido":"Alexander",
-        "imagen":"/integrantesImg/willians.jpg",
+        "imagen":"integrantesImg/willians.jpg",
         "numero":"8865-6255",
         "correo":"willianscasco@gmail.com"
     }
