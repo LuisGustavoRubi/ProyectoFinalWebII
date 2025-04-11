@@ -12,6 +12,9 @@ export const Header = () => {
                         <Link to="/about">About us</Link>
                     </li>
                     <li>
+                        <img src="/logo.svg" alt="Logo" className="w-10 h-10 sm:w-12 sm:h-12" />
+                    </li>
+                    <li>
                         <Link to="/contact">Contact</Link>
                     </li>
                     <li>

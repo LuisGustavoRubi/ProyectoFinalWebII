@@ -17,3 +17,12 @@ header nav ul li a:hover {
     @apply text-2xl;
     color: var(--text-primary-hover);
 }
+
+header nav ul li svg {
+    @apply w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12;
+    transition: transform 0.3s ease;
+}
+
+header nav ul li:hover svg {
+    transform: scale(1.1);
+}

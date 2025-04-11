@@ -54,9 +54,9 @@ export const Catalogo = () => {
     </Button>
   </li>
   <li>
-    <Button href="/Afiliados" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
-      <img src="/icons/person-arms-up.svg" alt="Afiliados" className="w-5 h-5" />
-      Afiliados
+    <Button href="/afiliados" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
+      <img src="/icons/person-arms-up.svg" alt="Partners Comerciales" className="w-5 h-5" />
+      Partners Comerciales
     </Button>
   </li>
   <li>

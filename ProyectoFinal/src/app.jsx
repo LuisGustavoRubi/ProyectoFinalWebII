@@ -11,6 +11,7 @@ import Testimonios from './sites/Testimonios';
 import CartPage from './sites/carrito';
 import FooterLocation from './sites/footerlocation';
 import Galery from './sites/Galery';
+import Afiliados from './sites/Afiliados';
 
 export const App = () => {
   return (
@@ -28,6 +29,7 @@ export const App = () => {
           <Route path="/testimonios" element={<Testimonios />} />
           <Route path="/Reseñas" element={<Reseñas />} />
           <Route path="/galery" element={<Galery />} />
+          <Route path="/afiliados" element={<Afiliados />} />
         </Routes>
       </Router>
     </>
