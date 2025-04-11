@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import { productosJSON } from "../../data/productos"
 import { Button } from "../components/button"
-
+import { Link } from "react-router-dom"
 export const LandingPage = () => {
     const limiteProductos=6
     const [productos, setProductos]=useState([])
