@@ -61,7 +61,7 @@ export const Catalogo = () => {
   </li>
   <li>
     <Link to="galery" className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg shadow hover:bg-blue-700 transition flex items-center justify-center gap-2">
-      <img src="/icons/card-image.svg" alt="Galería" className="w-5 h-5" />
+      <img src="icons/card-image.svg" alt="Galería" className="w-5 h-5" />
       Galería
     </Link>
   </li>
