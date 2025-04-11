@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react"
 import { productosJSON } from "../../data/productos"
 import { Button } from "../components/button"
 import { Link } from "react-router-dom"
+
 export const LandingPage = () => {
     const limiteProductos=6
     const [productos, setProductos]=useState([])
@@ -46,7 +47,7 @@ const HeroPanel = ({productos}) => {
           </p>
           
           <Link to="/catalogo" className="mr-4">
-      <img src="./icons/controller.svg" alt="Ubicación" className="w-4 h-4" />
+      <img src="icons/controller.svg" alt="Ubicación" className="w-4 h-4" />
       Ver juegos
     </Link>
         </div>
