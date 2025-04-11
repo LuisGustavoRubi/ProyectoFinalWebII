@@ -16,7 +16,7 @@ import Afiliados from './sites/Afiliados';
 export const App = () => {
   return (
     <>
-      <Router basename="/ProyectoFinalWebII">
+      <Router>
         <Header />
         <Routes>
           <Route path="/" element={<LandingPage />} />
