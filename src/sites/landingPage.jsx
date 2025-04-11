@@ -45,10 +45,10 @@ const HeroPanel = ({productos}) => {
             Explora una selección de títulos irresistibles, con ofertas exclusivas solo para los verdaderos gamers. ¡Juega más, paga menos!
           </p>
           
-          <Button href="/catalogo" className="mr-4">
+          <Link to="/catalogo" className="mr-4">
       <img src="/icons/controller.svg" alt="Ubicación" className="w-4 h-4" />
       Ver juegos
-    </Button>
+    </Link>
         </div>
       </div>
     );
